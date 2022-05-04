@@ -38,10 +38,11 @@ program
       switch (template) {
         case "vite_ts_vue3":
           url =
-            "https://github.com/codehzy/hzy-cli/vue3+ts+jsx+pinia+router4.git#master";
+            "direct:https://github.com/codehzy/hzy-cli/vitepress-template#master";
           break;
         case "blog":
-          url = "https://github.com/codehzy/vitepress-template.git#master";
+          url =
+            "direct:https://github.com/codehzy//hzy-cli/vue3+ts+jsx+pinia+router4#master";
           break;
       }
       download(url, name, { clone: true }, (err) =>
